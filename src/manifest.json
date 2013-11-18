@@ -16,7 +16,7 @@
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["scripts/content/classifier.js", "scripts/lib/jquery.js", "scripts/content/model.js", "scripts/content/content_script.js"]
+      "js": ["scripts/content/classifier.js", "scripts/content/glossary.js", "scripts/lib/jquery.js", "scripts/content/alchemyapi.js", "scripts/content/model.js", "scripts/content/content_script.js", "scripts/content/content_filter.js"]
     }
   ],
   "permissions": [
